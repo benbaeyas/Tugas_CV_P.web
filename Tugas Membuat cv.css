@@ -1,0 +1,131 @@
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+  color: #2C3E50;
+}
+
+.cv-container {
+  background-color: #ffffff;
+  width: 80%;
+  max-width: 650px;
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 2rem auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cv-header{
+  background-color: #1A1A2E;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+.cv-header, .panitia, .organisasi, .pendidikan {
+  display: flex;
+  align-items: top;
+  gap: 1.5rem;
+  text-align: justify;
+}
+
+.png{
+  width: 230px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  height: 230px;
+  object-fit: cover;
+  margin-bottom: -1.7rem;
+  border-radius: 10px;
+background-color: #FFD700;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 1.6rem;
+  margin-bottom: 1.0rem;
+  margin-top: 1.0rem;
+  color: inherit;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: -1.5rem;
+  color: inherit;
+}
+
+h5 {
+  font-weight: bold;
+  color: inherit;
+  opacity: 0.6;
+  font-size: 1rem;
+  margin-left: 3px;
+  margin-bottom: -0.1rem;
+}
+
+.hr-warna{
+  border: 0.5px solid inherit;
+}
+
+.panitia-info li, .organisasi-info li, .pendidikan-info li {
+  list-style: none;
+  margin-left: -39px;
+  margin-bottom: 15px;
+}
+
+.panitia-waktu li {
+  list-style: none;
+  text-align: right;
+  margin-left: 221px;
+  margin-bottom: 15px;
+}
+
+.organisasi-waktu li {
+  list-style: none;
+  text-align: right;
+  margin-left: 146px;
+  margin-bottom: 15px;
+}
+
+.pendidikan-waktu li {
+  list-style: none;
+  text-align: right;
+  margin-left: 273px;
+  margin-bottom: 15px;
+}
+
+.skill-hard-list {
+  display: flex; 
+  gap: 2rem; 
+  margin-top: -16px;
+}
+
+.skill {
+  display: flex;
+  align-items: top;
+  gap: 4.5rem;
+  text-align: justify;
+}
+
+.skill li{
+  margin-left: -19px;
+}
+
+p {
+  padding-bottom: 10px;
+  color: inherit;
+}
+
+
+.list-group-item {
+  border: none;
+  background: transparent;
+  font-size: 1rem;
+  margin-bottom: 14px;
+}
+
+.list-group-item i{
+  color: #FFD700;
+  font-size: 1.2rem;
+}
